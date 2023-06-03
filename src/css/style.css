@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.primeira, .segunda {
+    background-image: linear-gradient(to bottom, hsl(213, 19%, 25%), hsl(213, 19%, 18%));
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 450px;
+}
+
+.primeira {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+
+.div-estrela {
+    background-color: hsl(213, 19%, 28%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.estrela {
+    width: 25px;
+    height: 25px
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+    font-size: xx-large;
+    padding: 1rem 0 1rem;
+}
+
+.infos-one {
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 1rem;
+}
+
+.opcoes {
+    background-color: hsl(213, 19%, 28%);
+    border-style: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.opcoes:hover {
+    transition: 0.3s;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.opcoes:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.enviar, .recomeco {
+    width: 100%;
+    border-style: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+.enviar:hover, .recomeco:hover {
+    transition: 0.3s;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda.esconder {
+    display: none;
+}
+
+.obrigado {
+    height: 140px;
+    width: 200px;
+    padding-bottom: 1rem;
+}
+
+.parabens {
+    background-color: hsl(213, 19%, 28%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.3rem 0.7rem 0.3rem;
+    border-radius: 2rem;
+}
+
+.sub-titulo {
+    color: white;
+    padding: 1rem 0 1rem;
+    font-size: x-large;
+}
+
+.infos-two {
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 1rem;
+}
+
